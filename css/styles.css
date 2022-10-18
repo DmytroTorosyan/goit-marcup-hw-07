@@ -548,7 +548,7 @@ address {
     padding-bottom: 60px;
 }
 
-.footer .logo {
+.footer__logo {
     display: block;
     margin-bottom: 20px;
 }
@@ -557,29 +557,29 @@ address {
     color: var(--primary-white-color);
 }
 
-.footer .email, .footer .phone, .footer .address {
+.footer__email, .footer__phone, .footer__address {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71em;
     letter-spacing: 0.03em;
 }
 
-.footer .contacts {
+.footer__contacts {
     flex-direction: column;
     gap: 9px;
     align-items: flex-start;
 }
 
-.footer .address {
+.footer__address {
     color: var(--primary-white-color);
 }
 
-.footer-contacts-social {
+.footer__navigation {
     display: flex;
     align-items: baseline;
     gap: 70px;
 }
 
-.join {
+.footer__join {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -588,29 +588,27 @@ address {
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.footer-social {
+.footer__social {
     width: 206px;
     height: 80px;
 }
-.join {
-    margin-bottom: 20px;
-}
 
-.footer-join-social-list {
+
+.footer__social-list {
     display: flex;
     gap: 10px;
 }
 
-.footer-join-social-icon {
+.footer__social-icon {
     fill: var(--primary-white-color);
 }
 
-.footer-join-social-item {
+.footer__social-item {
     width: 44px;
     height: 44px;
 }
 
-.footer-join-social-link {
+.footer__social-link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -620,14 +618,14 @@ address {
     border-radius: 50%;
 }
 
-.footer-join-social-link:hover,
-.footer-join-social-link:focus {
+.footer__social-link:hover,
+.footer__social-link:focus {
     background-color: var(--accent-color);
     transition: transform 250ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-email {
+.footer__input-email {
     display: block;
     width: 358px;
     height: 50px;
@@ -641,19 +639,19 @@ address {
     color: var(--primary-white-color);
 }
 
-.footer-form-btn {
+.footer__form {
     display: flex;
     gap: 12px;
 }
 
-.form-email input::placeholder {
+.footer__input-email::placeholder {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-btn {
+.footer__btn {
     display: flex;
     align-items: center;
     gap: 10px;
