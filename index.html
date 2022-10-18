@@ -392,64 +392,61 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden " data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close" data-modal-close>
-                <svg class="modal-close-icon" width="18" height="18">
+            <button type="button" class="modal__close" data-modal-close>
+                <svg class="modal__close-icon" width="18" height="18">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-            <p class="modal-form">Залиште свої дані, ми вам передзвонимо</p>
+            <p class="modal__header">Залиште свої дані, ми вам передзвонимо</p>
             <form class="form">
-                <label class="form-field">
-                    <span>Ім'я</span>
-                    <input type="text" class="form-input" name="name" id="name">
-                        <svg class="form-field-icon" width="18" height="18">
+                <label class="form__field">
+                    <span class="form__field-header" >Ім'я</span>
+                    <input type="text" class="form__field-input" name="name" id="name">
+                        <svg class="form__field-icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-form-field-name"></use>
                         </svg>
                     
                     </label>
                 
-                <label class="form-field">
-                    <span>Телефон</span>
-                    <input type="tel" class="form-input" name="tel" id="tel">
-                        <svg class="form-field-icon" width="18" height="18">
+                <label class="form__field">
+                    <span class="form__field-header" >Телефон</span>
+                    <input type="tel" class="form__field-input" name="tel" id="tel">
+                        <svg class="form__field-icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-form-field-tel"></use>
                         </svg>
                     
                     </label>
                 
 
-                <label class="form-field">
-                    <span>Пошта</span>
-                    <input type="email" class="form-input" name="email">
-                        <svg class="form-field-icon" width="18" height="18">
+                <label class="form__field">
+                    <span class="form__field-header" >Пошта</span>
+                    <input type="email" class="form__field-input" name="email">
+                        <svg class="form__field-icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-form-field-email"></use>
                         </svg>
                     
                     </label>
                 
-                <div class="form-field">
-                    <label for="comment">Коментар</label>
-                    <textarea name="comment" id="comment" placeholder="Введіть текст"></textarea>
+                <div class="form__field">
+                    <label  class="form__field-header" for="comment">Коментар</label>
+                    <textarea class="form__field-textarea" name="comment" id="comment" placeholder="Введіть текст"></textarea>
                 </div>
                 
-                <div class="checkbox-field">
-                    <label class="checkbox-label" for="policy">
-                        <input class="checkbox" type="checkbox" name="policy" id="policy">
-                        <span class="checkbox-icon">
-                            <svg class="checkbox-field-icon" width="16" height="15">
+                <div class="form__checkbox-field">
+                    <label class="form__checkbox-label" for="policy">
+                        <input class="form__checkbox" type="checkbox" name="policy" id="policy">
+                        <span class="form__checkbox-icon">
+                            <svg class="checkbox__icon" width="16" height="15">
                                 <use href="./images/icons.svg#icon-icon-check"></use>
                             </svg>
                         </span>
-                        Погоджуюся з розсилкою та приймаю  <span class="tearms">Умови договору</span>  
+                        Погоджуюся з розсилкою та приймаю  <span class="form__checkbox-tearms">Умови договору</span>  
                     </label>
                 </div>
-                    
-                
-                
-                <div class="form-btn">
-                    <button type="submit" class="modal-btn">Відправити</button>
+                <div class="form__btn">
+                    <button type="submit" class="form__btn-send">Відправити</button>
                 </div>
                 
             </form>
